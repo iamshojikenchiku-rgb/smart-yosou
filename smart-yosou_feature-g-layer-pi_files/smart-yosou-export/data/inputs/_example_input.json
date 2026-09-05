@@ -1,0 +1,13 @@
+{
+  "race": { "name": "例：テスト記念", "course": "阪神", "distance": "1600", "track": "芝", "babaCondition": "稍重", "isAreru": true, "bias": "", "isHandicap": true, "raceClass": "G3", "courseType": "big_turf" },
+  "horses": [
+    { "uno": 1, "name": "サンプルA", "est_pop": 1, "rank": "A", "odds": 3.2, "pop_tan": 1, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "ディープ系", "chichi_mei": "", "haha_chichi_kei": "キングマンボ系", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 1.4 },
+    { "uno": 2, "name": "サンプルB", "est_pop": 4, "rank": "B", "odds": 12.5, "pop_tan": 7, "rider_change": true, "cond_change": false, "bonpaso": "出遅れ", "chichi_kei": "ロベルト系", "chichi_mei": "", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 3.6 },
+    { "uno": 3, "name": "サンプルC", "est_pop": 2, "rank": "B", "odds": 5.1, "pop_tan": 2, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "キングマンボ系", "chichi_mei": "ロードカナロア", "haha_chichi_kei": "サンデー系", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 1.9 },
+    { "uno": 4, "name": "サンプルD", "est_pop": 9, "rank": "C", "odds": 40.0, "pop_tan": 10, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "ミスプロ系", "chichi_mei": "", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 8.5 },
+    { "uno": 5, "name": "サンプルE", "est_pop": 3, "rank": "C", "odds": 9.8, "pop_tan": 5, "rider_change": false, "cond_change": true, "bonpaso": "", "chichi_kei": "エピファネイア系", "chichi_mei": "", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 2.8 },
+    { "uno": 6, "name": "サンプルF", "est_pop": 6, "rank": "D", "odds": 22.0, "pop_tan": 6, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "サドラーズウェルズ系", "chichi_mei": "モズアスコット", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明" },
+    { "uno": 7, "name": "サンプルG", "est_pop": 8, "rank": "C", "odds": 6.0, "pop_tan": 3, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "ハービンジャー系", "chichi_mei": "", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 2.1 },
+    { "uno": 8, "name": "サンプルH", "est_pop": 5, "rank": "C", "odds": 15.0, "pop_tan": 8, "rider_change": false, "cond_change": false, "bonpaso": "", "chichi_kei": "未入力", "chichi_mei": "", "haha_chichi_kei": "未入力", "hahahaa_kei": "未入力", "kishu_mei": "", "haha_seiseki": "不明", "sanka_sedai": "不明", "odds_fuku": 4.0 }
+  ]
+}
