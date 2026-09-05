@@ -1,0 +1,36 @@
+{
+  "name": "smart-yosou",
+  "version": "1.0.0",
+  "description": "Smart予想ツール（血統ベース中央競馬予想・自己完結版）",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "check": "node scripts/check.js",
+    "backtest": "node scripts/backtest.js",
+    "test:g": "node scripts/test-g-layer.js",
+    "test:bt": "node scripts/test-backtest-export.js",
+    "test": "npm run check && npm run test:g && npm run test:bt && npm run test:judge",
+    "judge": "node scripts/judge.js",
+    "ledger": "node scripts/ledger.js",
+    "test:judge": "node scripts/test-judge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshojikenchiku-rgb/smart-yosou.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshojikenchiku-rgb/smart-yosou/issues"
+  },
+  "homepage": "https://github.com/iamshojikenchiku-rgb/smart-yosou#readme",
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-react": "^8.0.1",
+    "jsdom": "^30.0.1"
+  },
+  "private": true
+}
