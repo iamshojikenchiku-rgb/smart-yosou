@@ -1,0 +1,21 @@
+{
+  "version": "ledger-v0.1",
+  "note": "収支台帳。judge.js --ledger が予算ガードに使う。追記は scripts/ledger.js add か J3 が行う。金額は円。",
+  "budget": {
+    "monthly": 10000,
+    "weekly": 2500,
+    "weekly_kachiba": 3000
+  },
+  "entries": [
+    {
+      "date": "2026-06-21",
+      "race": "しらさぎS",
+      "decision": "📊 通常運用",
+      "bets": "ワイドBOX 10-8-15-14",
+      "purchased": 500,
+      "returned": 0,
+      "memo": "軸⑩は1着だが相手総崩れ（docs/設計アドendum しらさぎS2026）",
+      "source": "docs/設計アドendum（2026-06-21）"
+    }
+  ]
+}
