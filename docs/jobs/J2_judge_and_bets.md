@@ -7,7 +7,7 @@
 - `docs/jobs/README.md`（共通セットアップ・共通ルール・ファイル名規約）
 - プロジェクト知識 `claude/weekly/YYYY-MM-DD_候補.md`（J1 の成果物。人の承認・差替コメントを含む）
 - プロジェクトのファイルのうち、**当日の `YYYYMMDD_` で始まる png**（出馬表・血統・推定人気・オッズ）
-- `docs/operation_flow_definition.md` §2 ステップ4（JSON作成ルール）と `docs/血統エンジン設計アドendum — F層`（`chichi_mei` の扱い）
+- `docs/operation_flow_definition.md` §2 ステップ4（JSON作成ルール）とプロジェクト知識の `docs/addendum/2026-06-21_F層_種牡馬個別補正.md`（`chichi_mei` の扱い）
 - `data/ledger.json`（予算ガード）
 
 ## 手順
