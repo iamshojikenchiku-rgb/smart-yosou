@@ -5,7 +5,7 @@
 
 ## 入力
 - `docs/jobs/README.md`（共通セットアップ・共通ルール）
-- `index.html` の `ARERU_RACES`（荒れやすいレース一覧・備考・caution）— `node -e` で読むか `docs/設計アドendum_G層π参考値_v0.1.md` §1 を参照
+- `index.html` の `ARERU_RACES`（荒れやすいレース一覧・備考・caution）— `node -e` で読むか `docs/design_addendum_g_layer_pi_v0.1.md` §1 を参照
 - `docs/operation_flow_definition.md` §2 ステップ2（選定基準）
 - `data/ledger.json` → `node scripts/ledger.js summary`（月内残額）
 - プロジェクト知識 `戦略見直し検討メモ v0.1`（ねじれ仮説・観察対象）

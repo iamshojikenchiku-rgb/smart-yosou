@@ -6,7 +6,7 @@
  *  2. jsdom で index.html を読み込み、#root に子要素が描画されることを確認
  *  3. http:// / https:// の外部スクリプト参照が 0 件であることを確認
  *
- * 要件3の運用（2026-09-05 決定・docs/実装メモ_G層π参考値_v0.1.md 参照）:
+ * 要件3の運用（2026-09-05 決定・docs/implementation_notes_g_layer_pi_v0.1.md 参照）:
  *   変更前から存在する Tailwind CDN と Google Fonts は「既知の例外」として
  *   警告表示に留め、それ以外の外部スクリプト／外部リンク参照が増えた場合のみ失敗させる。
  *   `npm run check -- --strict` で例外なしの厳格モードになる。
