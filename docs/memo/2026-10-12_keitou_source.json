@@ -1,0 +1,228 @@
+{
+  "_meta": {
+    "title": "小系統対応表の下準備（段階Bアドendum §9 R1）",
+    "generated": "2026-10-12",
+    "source_file": "index.html",
+    "source_sha256": "22badeac65eb9932ae7a1efd943145b78fd8295852c2b5223d1daf7b4406b801",
+    "source_lines": {
+      "CHICHI_KEI_OPTIONS": 679,
+      "KEITOU_TYPE": 694,
+      "SIRE_PROFILES": 1288
+    },
+    "method": "index.html を jsdom で読み込み、定数の値をそのまま JSON 化した。値の追加・修正・推測による補完は一切していない。",
+    "not_included": "書籍ページ（211〜386.png）由来の種牡馬→小系統の対応は未収録（リポジトリ外の資料のため）。KEITOU_TYPE のキーに種牡馬名を含むもの（例: キズナ系）があっても、種牡馬名→小系統の対応としては扱っていない。",
+    "counts": {
+      "keitou_type_entries": 47,
+      "chichi_kei_options": 47,
+      "internal_types": 15,
+      "sire_profiles": 4
+    }
+  },
+  "keitou_type": {
+    "サンデー系": "sunday_speed",
+    "ディープ系": "sunday_speed",
+    "キズナ系": "sunday_speed",
+    "コントレイル系": "sunday_speed",
+    "Tサンデー系": "sunday_stamina",
+    "Lサンデー系": "sunday_stamina",
+    "Pサンデー系": "sunday_power",
+    "ダイワメジャー系": "sunday_power",
+    "Dサンデー系": "sunday_dirt",
+    "ハーツクライ系": "sunday_stamina",
+    "スワーヴリチャード系": "sunday_stamina",
+    "キタサンブラック系": "sunday_stamina",
+    "ジャスタウェイ系": "sunday_power",
+    "ステイゴールド系": "sunday_tough",
+    "オルフェーヴル系": "sunday_tough",
+    "サトノダイヤモンド系": "sunday_power",
+    "エピファネイア系": "france_eu",
+    "サートゥルナーリア系": "france_eu",
+    "リオンディーズ系": "france_eu",
+    "ドゥラメンテ系": "kingmambo",
+    "ロードカナロア系": "kingmambo",
+    "キングマンボ系": "kingmambo",
+    "グレイソヴリン系": "nd_speed",
+    "リファール系": "nd_speed",
+    "ネヴァーベンド系": "nd_speed",
+    "ノーザンテースト系": "nd_speed",
+    "ロベルト系": "roberto",
+    "モーリス系": "roberto",
+    "スクリーンヒーロー系": "roberto",
+    "サドラーズウェルズ系": "nd_stamina",
+    "ニジンスキー系": "nd_stamina",
+    "ヌレイエフ系": "nd_stamina",
+    "ハービンジャー系": "harbinger",
+    "ダンチヒ系": "nd_speed",
+    "ミスプロ系": "mispro",
+    "フォーティナイナー系": "mispro",
+    "クロフネ系": "mispro",
+    "エーピーインディ系": "mispro",
+    "ヴァイスリージェント系": "mispro",
+    "ネイティヴダンサー系": "mispro",
+    "レイズアネイティヴ系": "mispro",
+    "ストームバード系": "nd_power",
+    "ボールドルーラー系": "nd_power",
+    "プリンスリーギフト系": "nd_speed",
+    "ノーザンダンサー系": "nd_speed",
+    "未入力": "unknown",
+    "その他": "other"
+  },
+  "internal_types": {
+    "sunday_speed": [
+      "サンデー系",
+      "ディープ系",
+      "キズナ系",
+      "コントレイル系"
+    ],
+    "sunday_stamina": [
+      "Tサンデー系",
+      "Lサンデー系",
+      "ハーツクライ系",
+      "スワーヴリチャード系",
+      "キタサンブラック系"
+    ],
+    "sunday_power": [
+      "Pサンデー系",
+      "ダイワメジャー系",
+      "ジャスタウェイ系",
+      "サトノダイヤモンド系"
+    ],
+    "sunday_dirt": [
+      "Dサンデー系"
+    ],
+    "sunday_tough": [
+      "ステイゴールド系",
+      "オルフェーヴル系"
+    ],
+    "france_eu": [
+      "エピファネイア系",
+      "サートゥルナーリア系",
+      "リオンディーズ系"
+    ],
+    "kingmambo": [
+      "ドゥラメンテ系",
+      "ロードカナロア系",
+      "キングマンボ系"
+    ],
+    "nd_speed": [
+      "グレイソヴリン系",
+      "リファール系",
+      "ネヴァーベンド系",
+      "ノーザンテースト系",
+      "ダンチヒ系",
+      "プリンスリーギフト系",
+      "ノーザンダンサー系"
+    ],
+    "roberto": [
+      "ロベルト系",
+      "モーリス系",
+      "スクリーンヒーロー系"
+    ],
+    "nd_stamina": [
+      "サドラーズウェルズ系",
+      "ニジンスキー系",
+      "ヌレイエフ系"
+    ],
+    "harbinger": [
+      "ハービンジャー系"
+    ],
+    "mispro": [
+      "ミスプロ系",
+      "フォーティナイナー系",
+      "クロフネ系",
+      "エーピーインディ系",
+      "ヴァイスリージェント系",
+      "ネイティヴダンサー系",
+      "レイズアネイティヴ系"
+    ],
+    "nd_power": [
+      "ストームバード系",
+      "ボールドルーラー系"
+    ],
+    "unknown": [
+      "未入力"
+    ],
+    "other": [
+      "その他"
+    ]
+  },
+  "chichi_kei_options": [
+    "未入力",
+    "サンデー系",
+    "ディープ系",
+    "Tサンデー系",
+    "Pサンデー系",
+    "Lサンデー系",
+    "Dサンデー系",
+    "キズナ系",
+    "コントレイル系",
+    "サトノダイヤモンド系",
+    "ハーツクライ系",
+    "スワーヴリチャード系",
+    "キタサンブラック系",
+    "ジャスタウェイ系",
+    "ダイワメジャー系",
+    "ステイゴールド系",
+    "オルフェーヴル系",
+    "エピファネイア系",
+    "サートゥルナーリア系",
+    "リオンディーズ系",
+    "ドゥラメンテ系",
+    "ロードカナロア系",
+    "キングマンボ系",
+    "グレイソヴリン系",
+    "リファール系",
+    "ネヴァーベンド系",
+    "ノーザンテースト系",
+    "ロベルト系",
+    "モーリス系",
+    "スクリーンヒーロー系",
+    "サドラーズウェルズ系",
+    "ニジンスキー系",
+    "ヌレイエフ系",
+    "ハービンジャー系",
+    "ダンチヒ系",
+    "ミスプロ系",
+    "フォーティナイナー系",
+    "クロフネ系",
+    "エーピーインディ系",
+    "ヴァイスリージェント系",
+    "ストームバード系",
+    "ボールドルーラー系",
+    "ネイティヴダンサー系",
+    "レイズアネイティヴ系",
+    "プリンスリーギフト系",
+    "ノーザンダンサー系",
+    "その他"
+  ],
+  "diff_options_vs_keitou_type": {
+    "in_options_not_in_keitou_type": [],
+    "in_keitou_type_not_in_options": []
+  },
+  "sire_to_keitou": {
+    "レイデオロ": {
+      "kei": "キングマンボ系",
+      "kei_in_keitou_type": true,
+      "internal_type": "kingmambo",
+      "source": "SIRE_PROFILES"
+    },
+    "アジアエクスプレス": {
+      "kei": "ストームバード系",
+      "kei_in_keitou_type": true,
+      "internal_type": "nd_power",
+      "source": "SIRE_PROFILES"
+    },
+    "ロードカナロア": {
+      "kei": "キングマンボ系",
+      "kei_in_keitou_type": true,
+      "internal_type": "kingmambo",
+      "source": "SIRE_PROFILES"
+    },
+    "モズアスコット": {
+      "kei": "サドラーズウェルズ系",
+      "kei_in_keitou_type": true,
+      "internal_type": "nd_stamina",
+      "source": "SIRE_PROFILES"
+    }
+  }
+}
